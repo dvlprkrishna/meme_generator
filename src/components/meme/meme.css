@@ -34,10 +34,11 @@
 .meme--image {
   object-fit: contain;
   max-width: 350px;
-  width: 100%;
+  width: 80%;
   display: flex;
   text-align: center;
   margin: 0.25rem auto 1rem;
+  max-height: 60vh;
 }
 
 .meme {
