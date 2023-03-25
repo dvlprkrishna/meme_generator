@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25rem 5rem;
+    align-items: center;
+    background: linear-gradient(159deg, #38237e, #628548c9);
+    color: whitesmoke;
+}
+
+.header__logo,
+.header__links {
+    display: flex;
+    align-items: center;
+}
+
+.header__logo h2 {
+    font-size: 1.5rem;
+}
+
+.header__links p a {
+    font-size: 1.1rem;
+    color: whitesmoke;
+    margin-right: 1rem;
+    font-family: monospace;
+}
+
+.header__image {
+    width: max-content;
+    max-height: 5rem;
+    margin-right: 1rem;
+}
